@@ -18,8 +18,8 @@ def run_exercise_program(voice):
     run_exercise(20, 1, 1, voice)
     time.sleep(10)
     run_exercise(10, 10, 5, voice)
-    run_exercise(20, 3, 1, voice)
     time.sleep(20)
+    run_exercise(20, .5, .5, voice)
     speak(voice, 'Exercise program completed')
     return True
 
